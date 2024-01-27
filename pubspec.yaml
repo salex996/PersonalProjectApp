@@ -29,7 +29,7 @@ dependencies:
   cached_network_image: 3.2.1
   equatable: 2.0.5
   flutter_animate: 4.1.1+1
-  flutter_blue_plus: ^1.17.3
+  flutter_blue_plus: ^1.31.10
   flutter_cache_manager: 3.3.1
   font_awesome_flutter: 10.6.0
   from_css_color: 2.0.0
@@ -37,7 +37,7 @@ dependencies:
   google_fonts: 4.0.3
   intl: 0.18.1
   json_path: 0.6.2
-  flutter_reactive_ble: ^5.2.0
+
   lottie: 2.7.0
   mime_type: 1.0.0
   page_transition: 2.1.0

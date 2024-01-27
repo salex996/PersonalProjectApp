@@ -162,10 +162,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_blue_plus
-      sha256: "3baf3bfb4876855316b34489204eb090ee5842ba174e47d3b9b2c378d8568fdf"
+      sha256: "3f7c5b9402919cfb16a6fc219adb9ed4ca2da77dceb9214732c77e58cf9569e8"
       url: "https://pub.dev"
     source: hosted
-    version: "1.31.8"
+    version: "1.31.12"
   flutter_blurhash:
     dependency: transitive
     description:
@@ -195,14 +195,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_reactive_ble:
-    dependency: "direct main"
-    description:
-      name: flutter_reactive_ble
-      sha256: "7a0d245412dc8e1b72ce2adc423808583b42ce824b1be74001ff22c8bb5ada48"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.2.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -229,14 +221,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
-  functional_data:
-    dependency: transitive
-    description:
-      name: functional_data
-      sha256: aefdec4365452283b2a7cf420a3169654d51d3e9553069a22d76680d7a9d7c3d
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.1"
   go_router:
     dependency: "direct main"
     description:
@@ -517,14 +501,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.7.4"
-  protobuf:
-    dependency: transitive
-    description:
-      name: protobuf
-      sha256: "01dd9bd0fa02548bf2ceee13545d4a0ec6046459d847b6b061d8a27237108a08"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.0"
   provider:
     dependency: "direct main"
     description:
@@ -533,22 +509,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.5"
-  reactive_ble_mobile:
-    dependency: transitive
-    description:
-      name: reactive_ble_mobile
-      sha256: e4623446d5fd6e641c984892ee1fa7c67499a2bb0971d85a500815e1d05db6fb
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.2.0"
-  reactive_ble_platform_interface:
-    dependency: transitive
-    description:
-      name: reactive_ble_platform_interface
-      sha256: "8988d16497886dccc69dca1c3eebce28ae387371f3f948a4f1b03dec9954fb05"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.2.0"
   rfc_6901:
     dependency: transitive
     description:
