@@ -73,6 +73,7 @@ Map<String, dynamic> convertAdvertisementDataToIBeaconData(ScanResult scanResult
     // print(">>>>> iBeacon found: ${scanResult.advertisementData.manufacturerData[76]}");
     List<int>? data = scanResult.advertisementData.manufacturerData[76];
     iBeaconData['remoteId'] = scanResult.device.remoteId.str;
+    iBeaconData['platformName'] = scanResult.device.platformName;
     iBeaconData['type'] = data![0];
     iBeaconData['length'] = data[1];
     iBeaconData['uuid'] = IBeaconModel.convertToUUID(data.sublist(2, 18));

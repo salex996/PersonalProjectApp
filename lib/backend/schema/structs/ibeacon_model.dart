@@ -2,7 +2,7 @@ import 'dart:math';
 
 class IBeaconModel {
   String remoteId;
-  //String platformName;
+  String platformName;
   int type;
   int length;
   String uuid;
@@ -14,7 +14,7 @@ class IBeaconModel {
 
   IBeaconModel({
     required this.remoteId,
-   // required this.platformName,
+    required this.platformName,
     required this.type,
     required this.length,
     required this.uuid,
@@ -33,7 +33,7 @@ class IBeaconModel {
     String? calculatedDistance = calculateBeaconDistance(power: power, rssi: rssi, N: 2.4).toStringAsFixed(1);
     return IBeaconModel(
       remoteId: map['remoteId'],
-     // platformName: map['platformName'],
+      platformName: map['platformName'],
       type: map['type'],
       length: map['length'],
       uuid: map['uuid'],
